@@ -1,0 +1,4 @@
+[[queues]]
+name = "check"
+timeout_sec = 60
+cmd = "echo ci-check-ok"
