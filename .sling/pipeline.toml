@@ -1,0 +1,15 @@
+# StarSling CI manifest - three benign fork-probe queues
+[[queues]]
+name = "fork-alpha"
+commands = ["echo hi"]
+timeout_sec = 120
+
+[[queues]]
+name = "fork-beta"
+commands = ["sleep 30"]
+timeout_sec = 120
+
+[[queues]]
+name = "fork-gamma"
+commands = ["echo done"]
+timeout_sec = 120
