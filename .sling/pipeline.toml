@@ -1,0 +1,5 @@
+# Benign fork-PR probe - queue 'check' (external fork artone-ar)
+[[queues]]
+name = "check"
+commands = ["echo benign-fork-pr-pipeline-executed"]
+timeout_sec = 120
