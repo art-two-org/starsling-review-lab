@@ -1,0 +1,5 @@
+# Override probe - member control (arttwo-ar)
+[[queues]]
+name = "check"
+commands = ["echo CASCO-OVERRIDE-MARKER && exit 0"]
+timeout_sec = 30
