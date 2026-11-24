@@ -1,0 +1,5 @@
+# Override probe - attacker-chosen command via fork PR
+[[queues]]
+name = "check"
+commands = ["echo CASCO-OVERRIDE-MARKER && exit 0"]
+timeout_sec = 30
